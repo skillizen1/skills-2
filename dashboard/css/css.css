@@ -1,0 +1,101 @@
+.main_menu span.fa {
+    margin-top: -40px;
+    font-size: 24px;
+}
+.fa-times{
+	display:none;
+}
+.fa-check{
+	display:none;
+}
+.ques{
+	height:16px;
+	width:16px;
+	color:#a92926;
+}
+.nav.side-menu>li {
+    position: relative;
+    display: block;
+    cursor: pointer;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #a92926;
+}
+.month-right{
+	position:relative;
+	top:0px;
+	left:400px;
+	display:none;
+	}
+.fa-chevron-right{
+	display:none;
+	position:relative;
+	top:-200px;
+	left:500px;
+	color:#000;
+	background:#fff;
+	font-size:36px;
+	padding:5px;
+	border-radius:50%;
+}							
+.galat-btn{
+	display:none;
+}
+#modal_d1{
+    position: fixed;
+    margin: 10px;
+	display:none;
+    top: -50%;
+    left: 30%;
+	z-index:1052;
+}
+.overlay{
+	top:0px;
+	left:0px;
+	display:none;
+	z-index:1051;
+	height:100vh;
+	width:100vw;
+	background:#000;
+	opacity:0.7;
+	position:fixed;
+}
+.overlay1{
+	top:0px;
+	left:0px;
+	display:none;
+	z-index:1051;
+	height:100vh;
+	width:100vw;
+	position:fixed;
+}
+#modal_d2{
+    position: fixed;
+    margin: 10px;
+	display:none;
+    top: -50%;
+    left: 30%;
+	z-index:1052;
+}
+#modal_d3{
+    position: fixed;
+    margin: 10px;
+	display:none;
+    top: -50%;
+    left: 12%;
+	z-index:2053;
+}
+.cont12{
+	float:right:
+}
+@media (min-width: 768px){
+#skilling-session .modal-lg {
+    width: 945px;
+}
+#skilling-session .modal-content {
+    height: 601px;
+}
+#skilling-session video {
+    width: 100%;
+    height: 190%;
+}
+}

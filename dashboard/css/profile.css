@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.back-arro{ border: 1px solid #7d7d7d; border-radius: 4px; color: #7d7d7d; display: inline-block; font-size: 20px; height: 29px; margin-bottom: 8px;     margin-top: 7px; text-align: center; width: 79px;}
+.back-arro:hover{background-color:#a92926; border-color:#a92926; color:#fff; text-decoration:none; }
+body{ background-color:#f2f2f2;}
+.logo{ margin:10px 0px; } 
+.user-nav{ padding-top:10px;}
+.user-profile img { border-radius: 50%; height: 29px; margin-right: 10px; width: 29px; }
+.navbar-nav .open .dropdown-menu { background: #fff none repeat scroll 0 0; border: 1px solid #d9dee4; box-shadow: none; left: auto; margin-top: 0;     position: absolute; right: 0; width: 220px; padding:0px; }
+.nav_menu { border-bottom: 1px solid #d9dee4; }
+.dropdown-menu > li > a { color: #5a738e; }
+.top_nav .dropdown-menu li a { padding: 12px 20px; width: 100%; }
+.dropdown-menu a { cursor: pointer; }
+a.user-profile { color: #5e6974 !important; }
+.navbar-nav > li > a, .navbar-brand, .navbar-nav > li > a { color: #fff !important; }
+.top_nav .nav > li > a:focus, .top_nav .nav > li > a:hover, .top_nav .nav .open > a, .top_nav .nav .open > a:focus, .top_nav .nav .open > a:hover {
+    background: #d9dee4 none repeat scroll 0 0;}
+.nav.navbar-nav > li > a { color: #515356 !important; }
+.nav .open > a, .nav .open > a:focus, .nav .open > a:hover { background-color: #eee; border-color: #337ab7; }
+.navbar-brand, .navbar-nav > li > a { color: #ecf0f1 !important; font-weight: 500; line-height: 32px; margin-left: 0 !important; }
+.nav > li > a { display: block; padding: 13px 15px 12px; position: relative; }
+.user-cover-box{ background-image:url(../img/user-cover.jpg); background-repeat:no-repeat; width:100%;  position:relative;}
+.edit-cover{ float:right; margin-top:15px; margin-bottom:50px;}
+.edit-cover a i{ margin-right:5px;}
+.padtop{ padding-top:30px;}
+.main-profilebox{ border:1px solid #e5e5e5; background-color:#fff; padding-bottom:20px; margin-bottom:20px;}
+.bor-right-left{ border-right:1px solid #e5e5e5; border-left:1px solid #e5e5e5}
+.user-name{ color:#7d7d7d; margin-top:0px;}
+.user-tagline{ color:#333; font-weight:600;}
+.border { border-top: 1px solid #e5e5e5; padding-top: 9px; margin-bottom:12px; color:#555; font-size:16px; }
+.bor-bot{ border-bottom:1px solid #e5e5e5; margin-bottom:20px;}
+.border a{ color:#555; font-size:16px;}
+.border a i{ font-size:14px;}
+.border a:hover{ text-decoration:none;}
+.user-photo{ display:block; text-align:center;}
+.user-photo h4 i{ color:#02b22c;}
+.user-media{ padding-left:0px; border-bottom:1px solid #e5e5e5; padding-bottom:10px;}
+.user-media li{ list-style:none; display:inline-block; margin-right:10px; }
+.user-media li a i{ color:#7d7d7d; font-size:16px; padding-top:4px; height:27px; width:27px; border-radius:50%; border:1px solid #7d7d7d; }
+.save-box{ background-color:#f7f7f7;}
+.save-btn{ background-color:#02b22c; font-size:17px; padding:5px 30px; display:block; margin:auto auto 20px; color:#fff; }
+.FilesUpload, .upload-file { display: inline-block; position: relative; }
+.btn-white { background: #fff none repeat scroll 0 0; border: 1px solid #e5e5e5; color: #7d7d7d !important; }
+.FilesUpload input.upload { height: 100%; left: 0; margin: 0 auto; top: 0; width: 100%; }
+.FilesUpload input.upload, .fileUpload input.upload { cursor: pointer; font-size: 20px; opacity: 0; padding: 0; position: absolute; }
+.profile-photoedit{ position:relative; height:206px; width:250px; margin:auto;}
+.photo-change { background: rgba(0, 0, 0, 0.61) none repeat scroll 0 0; bottom: 20px; color: #fff !important; left: 27%; position: absolute; right: 0; 
+width: 46%; padding:8px 0px; }
+.profile-photoedit img{ margin:auto;}
+@media (min-width: 561px) and (max-width: 767px) {
+	.col-xs-12 { width: 50%; }
+	}
+@media(min-width:768px){
+	.profile-photoedit {
+    height: auto;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+.photo-change { left: 17%; padding: 5px 0; width: 65%;}
+	}
+@media(min-width:992px){
+	.photo-change {
+    left: 21%;
+    padding: 5px 0;
+    width: 58%;
+}
+	}
+@media(min-width:1200px){
+	.photo-change {
+    left: 29%;
+    padding: 5px 0;
+    width: 42%;
+}
+	}
